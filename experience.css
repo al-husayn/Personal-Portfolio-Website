@@ -1,0 +1,132 @@
+body {
+    font-family: 'Francois One', sans-serif;;
+    
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  header .row,
+  footer .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    color:#ffffff
+  }
+  
+  a {
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    
+    background-size: cover;
+    color: #FAF1DF;
+    position: relative;
+    height: 700px;
+  }
+  
+  .jumbotron h1 {
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    top:10px;
+    right: 10px;
+    left: 30px;
+    bottom: 20px;
+    
+    /*color: #fff;*/
+  }
+  
+  .jumbotron img {
+    margin: 0px;
+    height:300px;
+    width: 70%;
+    
+    position: relative;
+    left: 400px;
+    bottom: 40px;
+    top: 0px;
+    
+    
+  }
+  
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+    
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    background-color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+  }
+  
+  .btn-secondary {
+    background-color: #7B7EF3;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+  
+  .portrait {
+    width:  350px;
+    height: 300px;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  figure {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    font-size: 20px;
+    padding: 80px 0;
+    color: #7B7EF3;
+  }
+  
+    .credit {
+    font-size: 10px;    
+    float: right;
+  }
+  
+  footer ul {
+    list-style: none;
+    color: #7B7EF3;
+  }
+  
+  
